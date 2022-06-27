@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB3E6B6D2869FAAE00EF1FFE /* DetailEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3E6B6C2869FAAE00EF1FFE /* DetailEditView.swift */; };
+		BB3E6B6F286A010700EF1FFE /* ThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3E6B6E286A010700EF1FFE /* ThemeView.swift */; };
+		BB3E6B71286A022A00EF1FFE /* ThemePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3E6B70286A022A00EF1FFE /* ThemePicker.swift */; };
 		BBA4AB5F2868986B00FB3BCC /* ScrumdingerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA4AB5E2868986B00FB3BCC /* ScrumdingerApp.swift */; };
 		BBA4AB612868986B00FB3BCC /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA4AB602868986B00FB3BCC /* MeetingView.swift */; };
 		BBA4AB632868986E00FB3BCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBA4AB622868986E00FB3BCC /* Assets.xcassets */; };
@@ -20,6 +23,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BB3E6B6C2869FAAE00EF1FFE /* DetailEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEditView.swift; sourceTree = "<group>"; };
+		BB3E6B6E286A010700EF1FFE /* ThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeView.swift; sourceTree = "<group>"; };
+		BB3E6B70286A022A00EF1FFE /* ThemePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemePicker.swift; sourceTree = "<group>"; };
 		BBA4AB5B2868986B00FB3BCC /* Scrumdinger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scrumdinger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBA4AB5E2868986B00FB3BCC /* ScrumdingerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumdingerApp.swift; sourceTree = "<group>"; };
 		BBA4AB602868986B00FB3BCC /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
@@ -66,7 +72,10 @@
 				BBA4AB6F28689DEC00FB3BCC /* Models */,
 				BBA4AB5E2868986B00FB3BCC /* ScrumdingerApp.swift */,
 				BBA4AB602868986B00FB3BCC /* MeetingView.swift */,
+				BB3E6B6C2869FAAE00EF1FFE /* DetailEditView.swift */,
 				BBA4AB742868A71400FB3BCC /* CardView.swift */,
+				BB3E6B6E286A010700EF1FFE /* ThemeView.swift */,
+				BB3E6B70286A022A00EF1FFE /* ThemePicker.swift */,
 				BBA4AB782868AD4E00FB3BCC /* ScrumsView.swift */,
 				BBA4AB7A2868C29D00FB3BCC /* DetailView.swift */,
 				BBA4AB622868986E00FB3BCC /* Assets.xcassets */,
@@ -163,13 +172,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB3E6B71286A022A00EF1FFE /* ThemePicker.swift in Sources */,
 				BBA4AB732868A63300FB3BCC /* DailyScrum.swift in Sources */,
 				BBA4AB7B2868C29D00FB3BCC /* DetailView.swift in Sources */,
+				BB3E6B6D2869FAAE00EF1FFE /* DetailEditView.swift in Sources */,
 				BBA4AB772868A96500FB3BCC /* TrailingIconLabelStyle.swift in Sources */,
 				BBA4AB7128689DF400FB3BCC /* Theme.swift in Sources */,
 				BBA4AB792868AD4E00FB3BCC /* ScrumsView.swift in Sources */,
 				BBA4AB612868986B00FB3BCC /* MeetingView.swift in Sources */,
 				BBA4AB5F2868986B00FB3BCC /* ScrumdingerApp.swift in Sources */,
+				BB3E6B6F286A010700EF1FFE /* ThemeView.swift in Sources */,
 				BBA4AB752868A71400FB3BCC /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
